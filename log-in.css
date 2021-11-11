@@ -1,0 +1,152 @@
+@media (max-height: 539px) {
+    body {
+        background: antiquewhite;
+        font-size: 50%;
+    }
+    p {
+        margin-bottom: 8px;
+        margin-top: 0px;
+    }
+    label, input {
+        margin-bottom: 4px;
+        margin-top: 0px;
+    }
+    input[type="text"] {
+        font-size:100%;
+    }
+    .btn {
+        padding: 2px 12px;
+        font-size: 100%;
+        line-height: 2;
+    }
+    .form-control {
+        height: 1.6rem;
+    }
+    .card-title {
+        font-size: 12px;
+    }
+}
+@media (max-height: 360px) {
+    body {
+        background: burlywood;
+        font-size: 33%;
+    }
+    p, label, input {
+        margin: 0px;
+    }
+    input[type="text"] {
+        font-size:90%;
+    }
+    .btn {
+        padding: 2px 12px;
+        font-size: 100%;
+        line-height: 2;
+    }
+    .form-control {
+        height: 1.2rem;
+    }
+}
+@media (min-height: 540px){
+    body {
+        background: aliceblue;
+        font-size: 100%;
+    }
+    p {
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+    label, input {
+        margin-bottom: 8px;
+        margin-top: 0px;
+    }
+    input[type="text"] {
+        font-size:110%;
+    }
+    .btn {
+        padding: 2px 12px;
+        font-size: 100%;
+        line-height: 2;
+    }
+    .form-control {
+        height: 2.4rem;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+}
+@media (min-height: 1080px){
+    body {
+        background: snow;
+        font-size: 200%;
+    }
+    p {
+        margin-bottom: 32px;
+        margin-top: 0px;
+    }
+    label, input {
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+    input[type="text"] {
+        font-size:120%;
+    }
+    .btn {
+        padding: 2px 12px;
+        font-size: 100%;
+        line-height: 2;
+    }
+    .form-control {
+        height: 4.8rem;
+    }
+    .card-title {
+        font-size: 48px;
+    }
+}
+@media (min-height: 2160px){
+    body {
+        background: cornflowerblue;
+        font-size: 400%;
+    }
+    p {
+        margin-bottom: 64px;
+        margin-top: 0px;
+    }
+    label, input {
+        margin-bottom: 32px;
+        margin-top: 0px;
+    }
+    input[type="text"] {
+        font-size:130%;
+    }
+    .btn {
+        padding: 2px 12px;
+        font-size: 100%;
+        line-height: 2;
+    }
+    .form-control {
+        height: 9.6rem;
+    }
+    .card-title {
+        font-size: 96px;
+    }
+}
+@media (max-aspect-ratio: 48/100){
+    .card {
+        width: 36vh;
+    }
+}
+@media (min-aspect-ratio: 48/100){
+    .card {
+        width: 42vh;
+    }
+}
+@media (min-aspect-ratio: 56/100){
+    .card {
+        width: 48vh;
+    }
+}
+@media (min-aspect-ratio: 60/100){
+    .card {
+        width: 54vh;
+    }
+}
