@@ -47,6 +47,10 @@ body {
     min-height: 70vh;
 }
 
+#main-content > p{
+    font-size: 2.1vh;
+}
+
 h1 {
     margin: 4vh 0vh;
 }

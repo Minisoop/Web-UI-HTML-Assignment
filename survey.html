@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3" id="navbar-top">
+            <div class="container-fluid">
+                <a class="nav-link" href="#"><h3 class="fixed-top"><img id="logo" src="content/University Logo.png"></h3></a>
+                <a class="navbar-brand" href="#" id="navbar-brand-top">University of Thanytte</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html" style="padding: 0;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="academics.html" style="padding: 0;">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <p id="active-page" style="padding: 0;">Admission</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html" style="padding: 0;">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="main-content">
+            <h1><strong>Survey Form</strong></h1>
+            <form action="">
+                <label for="name">Full Name</label>
+                <br>
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input class="form-control" type="email" id="email" placeholder="Enter email">
+                    </div>
+                </form>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select class="form-control" id="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other/Prefer Not To Say</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Level of Study that you are Applying for</label>
+                    <select class="form-control" id="gender">
+                        <option>Undergraduate</option>
+                        <option>Postgraduate</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Intended year of entry</label>
+                    <select class="form-control" id="gender">
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024 or after</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Are you a UK, EU or International Student?</label>
+                    <select class="form-control" id="gender">
+                        <option>UK</option>
+                        <option>EU</option>
+                        <option>International</option>
+                    </select>
+                </div>
+                <br>
+                <button class="btn btn-primary btn-block" type="submit">Submit</button>
+                <br>
+            </form>
+        </div>
+    </div>
+    <footer>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Footer-Navbar</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="log-in.html">Log In</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
